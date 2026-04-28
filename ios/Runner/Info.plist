@@ -3,21 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>NSPhotoLibraryUsageDescription</key>
-	<string>Mini Sosmed membutuhkan akses galeri untuk mengunggah foto dan video Anda.</string>
+	<string>Mini Instagram membutuhkan akses galeri untuk mengunggah foto dan video Anda.</string>
 	<key>NSCameraUsageDescription</key>
-	<string>Mini Sosmed membutuhkan akses kamera untuk mengambil foto dan video.</string>
+	<string>Mini Instagram membutuhkan akses kamera untuk mengambil foto dan video.</string>
 	<key>NSMicrophoneUsageDescription</key>
-	<string>Mini Sosmed membutuhkan akses mikrofon untuk merekam video.</string>
+	<string>Mini Instagram membutuhkan akses mikrofon untuk merekam video.</string>
 	<key>NSLocationWhenInUseUsageDescription</key>
-	<string>Mini Sosmed membutuhkan akses lokasi untuk menambahkan lokasi pada Story Anda.</string>
+	<string>Mini Instagram membutuhkan akses lokasi untuk menambahkan lokasi pada Story Anda.</string>
 	<key>NSLocationAlwaysUsageDescription</key>
-	<string>Mini Sosmed membutuhkan akses lokasi untuk menambahkan lokasi pada Story Anda.</string>
+	<string>Mini Instagram membutuhkan akses lokasi untuk menambahkan lokasi pada Story Anda.</string>
 	<key>CADisableMinimumFrameDurationOnPhone</key>
 	<true/>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>$(DEVELOPMENT_LANGUAGE)</string>
 	<key>CFBundleDisplayName</key>
-	<string>Mini Sosmed App</string>
+	<string>Mini Instagram</string>
 	<key>CFBundleExecutable</key>
 	<string>$(EXECUTABLE_NAME)</string>
 	<key>CFBundleIdentifier</key>
@@ -25,7 +25,7 @@
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
-	<string>mini_sosmed_app</string>
+	<string>Mini Instagram</string>
 	<key>CFBundlePackageType</key>
 	<string>APPL</string>
 	<key>CFBundleShortVersionString</key>

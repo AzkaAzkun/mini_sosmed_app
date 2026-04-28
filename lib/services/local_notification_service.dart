@@ -76,7 +76,7 @@ class LocalNotificationService {
 
     await flutterLocalNotificationsPlugin.show(
       id: DateTime.now().millisecond, 
-      title: 'Mini Sosmed',
+      title: 'Mini Instagram',
       body: message,
       notificationDetails: notificationDetails,
     );

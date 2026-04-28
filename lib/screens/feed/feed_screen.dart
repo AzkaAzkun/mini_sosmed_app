@@ -3,7 +3,6 @@ import 'package:mini_sosmed_app/models/post_model.dart';
 import 'package:mini_sosmed_app/models/story_model.dart';
 import 'package:mini_sosmed_app/screens/notifications/notification_screen.dart';
 import 'package:mini_sosmed_app/screens/story/create_story_screen.dart';
-import 'package:mini_sosmed_app/screens/profile/post_detail_screen.dart';
 import 'package:mini_sosmed_app/screens/profile/profile_screen.dart';
 import 'package:mini_sosmed_app/screens/story/story_viewer_screen.dart';
 import 'package:mini_sosmed_app/services/db_service.dart';
@@ -28,7 +27,7 @@ class _FeedScreenState extends State<FeedScreen> {
 
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Feed'),
+        title: const Text('Mini Instagram'),
         automaticallyImplyLeading: false,
         actions: [
           IconButton(
@@ -267,7 +266,7 @@ class _PostCard extends StatelessWidget {
               height: 200,
               width: double.infinity,
               color: Colors.black12,
-              child: const Center(
+              child: Center(
                 child: Column(
                   mainAxisSize: MainAxisSize.min,
                   children: [
@@ -278,7 +277,7 @@ class _PostCard extends StatelessWidget {
               ),
             ),
           if (post.createdAt == DateTime.now())
-            Text('Baru saja'),
+            Text('Baru saja')
           else
             Text(post.createdAt.toString()), 
           // Caption

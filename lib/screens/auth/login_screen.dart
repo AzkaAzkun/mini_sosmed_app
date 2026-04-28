@@ -67,7 +67,7 @@ class _LoginScreenState extends State<LoginScreen> {
               children: [
                 // Logo or App Name
                 const Text(
-                  'Mini Sosmed',
+                  'Mini Instagram',
                   style: TextStyle(
                     fontSize: 32,
                     fontWeight: FontWeight.bold,
